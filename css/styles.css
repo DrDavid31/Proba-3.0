@@ -216,6 +216,15 @@ ul {
   vertical-align: middle;
   margin-right: 8px;
 }
+/* ====== Ajustes página Empresa ====== */
+.empresa-info p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.empresa-info ul {
+  margin-bottom: 2rem;
+}
 
 /* (Se repite #panel-afiliado y #panel-empresa más arriba) */
 
