@@ -326,8 +326,8 @@ footer {
 }
 
 .whatsapp-link img {
-  width: 70px;
-  height: 70px;
+  width: 140px;
+  height: 140px;
 }
 .whatsapp-link::after {
   content: "chatea con nosotros por WhatsApp";
