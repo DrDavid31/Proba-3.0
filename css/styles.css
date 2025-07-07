@@ -317,3 +317,15 @@ footer {
   transform: translateY(-10px);
   transition: opacity 150ms ease-in, transform 150ms ease-in;
 }
+/* ====== Botón flotante de WhatsApp ====== */
+.whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-link img {
+  width: 48px;
+  height: 48px;
+}
