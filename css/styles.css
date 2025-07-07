@@ -326,6 +326,26 @@ footer {
 }
 
 .whatsapp-link img {
-  width: 48px;
-  height: 48px;
+  width: 70px;
+  height: 70px;
 }
+.whatsapp-link::after {
+  content: "chatea con nosotros por WhatsApp";
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+  background: var(--emerald);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+}
+
+.whatsapp-link:hover::after {
+  opacity: 1;
+  transform: translateY(0);
