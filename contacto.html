@@ -1,3 +1,55 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PROBA – Contacto</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Estilos específicos para formulario de contacto */
+    #contacto-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+      margin-top: 2rem;
+    }
+    #contacto-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    #contacto-form input,
+    #contacto-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+      transition: border-color 0.3s;
+    }
+    #contacto-form input:focus,
+    #contacto-form textarea:focus {
+      border-color: var(--emerald);
+      outline: none;
+    }
+    #contacto-form .btn-submit {
+      grid-column: span 2;
+      background: var(--lime);
+      color: var(--dark-teal);
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+      justify-self: start;
+    }
+    #contacto-form .btn-submit:hover {
+      background: var(--gold);
+    }
     @media (max-width: 600px) {
       #contacto-form {
         grid-template-columns: 1fr;
@@ -23,7 +75,7 @@
           <li><a href="competencias.html">Competencias</a></li>
           <li><a href="costos.html">Costos</a></li>
           <li><a href="contacto.html" class="active">Contacto</a></li>
-          <li><a href="privacidad.html">Aviso de Privacidad</a></li>
+           <li><a href="privacidad.html">Aviso de Privacidad</a></li>
         </ul>
       </nav>
     </div>
@@ -67,10 +119,6 @@
       </div>
     </section>
   </main>
-
-  <a href="https://api.whatsapp.com/send/?phone=525518448622&text=Me+pueden+brindar+informaci%C3%B3n+de+sus+servicios&type=phone_number&app_absent=0" target="_blank" class="whatsapp-link">
-    <img src="images/whatsapp.png" alt="Contáctanos por WhatsApp">
-  </a>
 
   <!-- FOOTER -->
   <footer>
