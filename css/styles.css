@@ -125,7 +125,8 @@ nav a.active {
 }
 .card img {
   max-width: 80px;
-  margin-bottom: 1rem;
+   margin: 0 auto 1rem;
+  display: block
 }
 .card .btn {
   margin-top: auto;
