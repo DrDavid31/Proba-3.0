@@ -404,6 +404,10 @@ footer {
   vertical-align: middle;
   margin-left: 0.25rem;
 }
+/* Tamaño grande para iconos sociales */
+.social-icon.large {
+  width: 48px;
+}
 
 .empresa-icon {
   width: 60px;
