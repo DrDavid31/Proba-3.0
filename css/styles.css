@@ -424,10 +424,17 @@ footer {
   margin-left: 0.25rem;
 }
 
+/* ====== Íconos de la página de Costos ====== */
+.costos-icon {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
 /* ====== Ícono de Redes Sociales ====== */
 .redes-icon {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   vertical-align: middle;
   margin-left: 0.25rem;
 }
