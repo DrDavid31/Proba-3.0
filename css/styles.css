@@ -374,8 +374,8 @@ footer {
 /* ====== Botón para volver arriba ====== */
 .scroll-top {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 30px;
+  left: 30px;
   z-index: 1000;
 }
 
@@ -390,8 +390,8 @@ footer {
 
 /* ====== Ícono de Términos y Condiciones ====== */
 .terminos-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   vertical-align: middle;
   margin-left: 0.25rem;
 }
