@@ -459,10 +459,12 @@ footer {
 /* ====== Zoom en imágenes del portafolio ====== */
 .zoom-container {
   overflow: hidden;
+  position: relative;
 }
 
 .zoom-container img.zoomable {
   transition: transform 0.3s ease;
+  transform-origin: center center;
 }
 
 .zoom-container img.zoomable:hover {
