@@ -407,6 +407,14 @@ footer {
 /* Tamaño grande para iconos sociales */
 .social-icon.large {
   width: 48px;
+  height: 48px;
+}
+
+/* Texto destacado para la sección "Síguenos" */
+.follow-text {
+  color: var(--emerald);
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .empresa-icon {
