@@ -470,3 +470,32 @@ footer {
 .zoom-container img.zoomable:hover {
   transform: scale(2);
 }
+
+/* ====== Página de introducción ====== */
+.intro-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--dark-teal);
+}
+
+#intro-logo img {
+  width: 50vw;
+  max-width: 500px;
+  animation: intro-enter 0.8s ease-out forwards;
+}
+
+#intro-logo.animar img {
+  animation: intro-exit 0.8s ease-in forwards;
+}
+
+@keyframes intro-enter {
+  from { opacity: 0; transform: scale(0.8); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes intro-exit {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0; transform: scale(1.2); }
+}
