@@ -50,6 +50,9 @@
     #contacto-form .btn-submit:hover {
       background: var(--gold);
     }
+       #contacto-form .consent {
+      font-size: 0.9rem;
+    }
     @media (max-width: 600px) {
       #contacto-form {
         grid-template-columns: 1fr;
@@ -98,6 +101,14 @@
         <label for="mensaje">Mensaje</label>
         <textarea id="mensaje" name="mensaje" rows="6" placeholder="¿En qué podemos ayudarte?" required></textarea>
       </div>
+        <div class="consent" style="grid-column: span 2;">
+        <label>
+          <input type="checkbox" id="aceptar" required>
+          Acepto enviar mis datos y he leído el
+          <a href="privacidad.html" target="_blank">Aviso de Privacidad</a>.
+        </label>
+      </div>
+      <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" style="grid-column: span 2;"></div>
       <button type="submit" class="btn-submit">Enviar</button>
     </form>
 
@@ -132,5 +143,6 @@
 <a href="#" class="scroll-top" aria-label="Volver arriba">
     <img src="images/flecha.png" alt="Volver arriba">
   </a>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
