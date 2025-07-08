@@ -480,6 +480,10 @@ footer {
   background: var(--dark-teal);
 }
 
+#intro-logo {
+  text-align: center;
+}
+
 #intro-logo img {
   width: 50vw;
   max-width: 500px;
