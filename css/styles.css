@@ -259,10 +259,10 @@ footer {
 }
 
 /* ====== ICONOS SOCIALES ====== */
-.social-icon.facebook     { width: 32px; }
+.social-icon.facebook     { width: 60px; }
 .social-icon.twitter      { width: 500px; }
-.social-icon.linkedin     { width: 32px; }
-.social-icon.instagram    { width: 32px; }
+.social-icon.linkedin     { width: 60px; }
+.social-icon.instagram    { width: 60px; }
 /* Ajuste de espaciado */
 .social li { margin-right: 1rem; }
 
