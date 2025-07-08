@@ -431,6 +431,15 @@ footer {
   vertical-align: middle;
   margin-left: 0.25rem;
 }
+
+/* ====== Ícono de Servicios ====== */
+.analizar-icon {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
 /* ====== Ícono de Redes Sociales ====== */
 .redes-icon {
   width: 80px;
