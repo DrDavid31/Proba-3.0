@@ -424,6 +424,14 @@ footer {
   margin-left: 0.25rem;
 }
 
+/* ====== Ícono de Redes Sociales ====== */
+.redes-icon {
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
 /* ====== Ícono de Aviso de Privacidad ====== */
 .privacidad-icon {
   width: 90px;
