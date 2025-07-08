@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="intro-page">
-   <div id="intro-logo">
+    <div id="intro-logo">
     <img src="images/logo.png" alt="Logo PROBA">
     <h1>PROBA</h1>
   </div>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const intro = document.getElementById('intro-logo');
-      intro.addEventListener('click', () => {
+    window.addEventListener('load', function () {
+      var intro = document.getElementById('intro-logo');
+      intro.addEventListener('click', function () {
         intro.classList.add('animar');
       });
-      intro.addEventListener('animationend', () => {
+      intro.addEventListener('animationend', function () {
         if (intro.classList.contains('animar')) {
           window.location.href = 'index.html';
         }
