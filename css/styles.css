@@ -455,3 +455,16 @@ footer {
   vertical-align: middle;
   margin-left: 0.25rem;
 }
+
+/* ====== Zoom en imágenes del portafolio ====== */
+.zoom-container {
+  overflow: hidden;
+}
+
+.zoom-container img.zoomable {
+  transition: transform 0.3s ease;
+}
+
+.zoom-container img.zoomable:hover {
+  transform: scale(2);
+}
