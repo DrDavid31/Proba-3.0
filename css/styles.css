@@ -372,9 +372,16 @@ footer {
 }
 
 /* ====== Botón para volver arriba ====== */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
 .scroll-top img {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
 }
 
 .contact-page .scroll-top {
