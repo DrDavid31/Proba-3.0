@@ -353,8 +353,8 @@ footer {
 }
 
 .whatsapp-link img {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
 }
 .whatsapp-link::after {
   content: "chatea con nosotros por WhatsApp";
@@ -406,8 +406,8 @@ footer {
 }
 /* Tamaño grande para iconos sociales */
 .social-icon.large {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
 }
 
 /* Texto destacado para la sección "Síguenos" */
