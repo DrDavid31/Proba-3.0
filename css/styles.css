@@ -308,6 +308,14 @@ footer {
   color: var(--emerald);
 }
 
+/* Íconos pequeños junto al texto de contacto */
+.contact-details .contact-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
 /* Ejemplo de ajuste responsivo para el mapa */
 @media (max-width: 600px) {
   .map-container {
