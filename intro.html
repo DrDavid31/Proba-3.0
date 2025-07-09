@@ -11,13 +11,13 @@
     <img src="images/logo.png" alt="Logo PROBA">
     <h1>PROBA</h1>
   </div>
-  <script>
+   <script>
     window.addEventListener('load', function () {
       var intro = document.getElementById('intro-logo');
       // Iniciar la animación automáticamente tras una breve pausa
       setTimeout(function () {
         intro.classList.add('animar');
-      }, 1000);
+      }, 1500);
       intro.addEventListener('animationend', function () {
         if (intro.classList.contains('animar')) {
           window.location.href = 'index.html';
