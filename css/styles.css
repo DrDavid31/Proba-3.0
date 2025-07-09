@@ -485,8 +485,8 @@ footer {
 }
 
 #intro-logo img {
-  width: 70vw;
-  max-width: 700px;
+  width: 80vw;
+  max-width: 800px;
   animation: intro-enter 0.8s ease-out forwards;
 }
 
@@ -495,11 +495,12 @@ footer {
   font-size: 3.5rem;
   color: var(--emerald);
   text-align: center;
-  animation: intro-enter 0.8s ease-out forwards;
+  animation: intro-enter 1.5s ease-out forwards;
 }
 
-#intro-logo.animar img {
-  animation: intro-exit 0.8s ease-in forwards;
+#intro-logo.animar img,
+#intro-logo.animar h1 {
+  animation: intro-exit 1.5s ease-in forwards;
 }
 
 @keyframes intro-enter {
