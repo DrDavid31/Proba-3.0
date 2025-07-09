@@ -376,8 +376,7 @@ footer {
 .whatsapp-link:hover::after {
   opacity: 1;
   transform: translateY(0);
-  }
-
+  
 }
 
 /* ====== Botón para volver arriba ====== */
@@ -485,15 +484,15 @@ footer {
 }
 
 #intro-logo img {
-  width: 80vw;
-  max-width: 800px;
+  width: 90vw;
+  max-width: 900px;
   animation: intro-enter 0.8s ease-out forwards;
 }
 
 #intro-logo h1 {
   margin-top: 1rem;
-  font-size: 3.5rem;
-  color: var(--emerald);
+  font-size: 4rem;
+  color: var(--lime);
   text-align: center;
   animation: intro-enter 1.5s ease-out forwards;
 }
