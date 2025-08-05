@@ -1,0 +1,260 @@
+<!-- Archivo: moma.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOMA MKT – Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Estilos para el formulario de contacto */
+    #contacto-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    #contacto-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    #contacto-form input,
+    #contacto-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    #contacto-form button {
+      grid-column: span 2;
+      background: var(--lime);
+      color: var(--dark-teal);
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    #contacto-form button:hover {
+      background: var(--gold);
+    }
+    @media (max-width: 600px) {
+      #contacto-form {
+        grid-template-columns: 1fr;
+      }
+      #contacto-form button {
+        grid-column: span 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ====== HEADER / NAV ====== -->
+  <header>
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">
+        <img src="images/logo.png" alt="Logo MOMA MKT" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#mvv">Misión</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#metodo">Cómo trabajamos</a></li>
+          <li><a href="#ti">Especialistas en TI</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section id="inicio" class="hero">
+    <video class="hero-video" autoplay muted loop>
+      <source src="images/intro.mp4" type="video/mp4">
+    </video>
+    <div class="container hero-content">
+      <h1>Hacemos un cambio en tu negocio</h1>
+      <p>Transformamos marcas desde adentro hacia afuera con estrategias humanas, tecnológicas y creativas.</p>
+      <a href="#contacto" class="btn btn-primary">Transforma tu marca hoy</a>
+    </div>
+  </section>
+
+  <!-- ====== NOSOTROS ====== -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2>Nosotros</h2>
+      <p>MOMA no es una agencia más. Somos un equipo que escucha, se involucra y sueña contigo. Más que una agencia creativa, somos estrategas, diseñadores, consultores y aliados. Nuestra pasión es transformar negocios a través de ideas claras, estrategias inteligentes y ejecución impecable. Trabajamos con corazón y con datos.</p>
+      <p>Especialistas en el sector TI, entendemos los retos, lenguaje y objetivos de empresas tecnológicas.</p>
+      <ul>
+        <li>Dirección Estratégica</li>
+        <li>Consultoría Creativa</li>
+        <li>Diseño y Contenidos</li>
+        <li>Performance Digital</li>
+        <li>Atención y Gestión de Cuentas</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== MISION, VISION Y VALORES ====== -->
+  <section id="mvv" class="section">
+    <div class="container">
+      <h2>Misión, Visión y Valores</h2>
+      <h3>Misión</h3>
+      <p>Crear soluciones de marketing que impulsen el crecimiento sostenible de nuestros clientes, fusionando creatividad, tecnología y análisis estratégico.</p>
+      <h3>Visión</h3>
+      <p>Ser la agencia de referencia en transformación digital creativa para empresas del sector tecnológico y más allá.</p>
+      <h3>Valores</h3>
+      <ul>
+        <li>Escucha activa</li>
+        <li>Enfoque humano</li>
+        <li>Innovación constante</li>
+        <li>Resultados medibles</li>
+        <li>Compromiso con la excelencia</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== SERVICIOS ====== -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>MOMA Essential</h3>
+          <p>Branding, logo, landing, entregas rápidas.</p>
+        </div>
+        <div class="card">
+          <h3>MOMA Pro</h3>
+          <p>Redes sociales básicas, 4 publicaciones/mes, Ads desde $2,000 MXN.</p>
+        </div>
+        <div class="card">
+          <h3>MOMA Alpha</h3>
+          <p>Social Media avanzado, SEO, Ads $5,000 MXN, Email marketing.</p>
+        </div>
+        <div class="card">
+          <h3>MOMA Royal</h3>
+          <p>Estrategia 360°, SEO avanzado, Ads $10,000 MXN, consultoría estratégica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== METODO DE TRABAJO ====== -->
+  <section id="metodo" class="section">
+    <div class="container">
+      <h2>Nuestra forma de trabajar</h2>
+      <ol>
+        <li>Entendemos tu necesidad</li>
+        <li>Analizamos tu negocio</li>
+        <li>Personalizamos la estrategia</li>
+        <li>Metemos el gol que necesitas</li>
+      </ol>
+      <p>Cada cliente es único. Estrategias a la medida, contigo.</p>
+    </div>
+  </section>
+
+  <!-- ====== ESPECIALISTAS EN TI ====== -->
+  <section id="ti" class="section">
+    <div class="container">
+      <h2>Especialistas en TI</h2>
+      <p>Somos especialistas en empresas del sector tecnológico. Con más de 5 años colaborando con firmas que ofrecen soluciones como SAP, Salesforce, Microsoft y otras tecnologías.</p>
+      <p>Creamos campañas efectivas para destacar productos complejos, conectar con audiencias especializadas y posicionar marcas tecnológicas en entornos B2B.</p>
+      <h3>Beneficios</h3>
+      <ul>
+        <li>Conocimiento técnico del mercado</li>
+        <li>Posicionamiento estratégico</li>
+        <li>Campañas con propósito</li>
+        <li>Generación de leads calificados</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== PORTAFOLIO ====== -->
+  <section id="portafolio" class="section">
+    <div class="container">
+      <h2>Casos de Éxito</h2>
+      <p>Impacto en marcas TI, servicios, salud, educación y retail.</p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Marca TI</h3>
+          <p>Testimonio de cliente destacando resultados positivos.</p>
+        </div>
+        <div class="card">
+          <h3>Salud</h3>
+          <p>Campaña especializada con objetivos cumplidos.</p>
+        </div>
+        <div class="card">
+          <h3>Retail</h3>
+          <p>Estrategia omnicanal que generó crecimiento en ventas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>¿Listo para hacer un cambio real en tu negocio?</p>
+      <form id="contacto-form">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div>
+          <label for="empresa">Empresa</label>
+          <input type="text" id="empresa" name="empresa">
+        </div>
+        <div style="grid-column: span 2;">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+      <p><a href="https://calendly.com" target="_blank">Agendar en Calendly</a> o <a href="https://wa.me/" target="_blank">WhatsApp</a></p>
+    </div>
+  </section>
+
+  <!-- ====== SEO Y TECNICA ====== -->
+  <section id="seo" class="section">
+    <div class="container">
+      <h2>SEO y Técnica</h2>
+      <p>Sitio optimizado para SEO desde el día 1. Animaciones ligeras, integración WhatsApp/newsletter/CRM. Blog futuro con contenido educativo de marketing.</p>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-social">
+        <p class="follow-text">Síguenos:</p>
+        <ul class="social">
+          <li><a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook" class="social-icon facebook large"></a></li>
+          <li><a href="https://twitter.com" target="_blank"><img src="images/x.png" alt="Twitter" class="social-icon twitter large"></a></li>
+          <li><a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" class="social-icon linkedin large"></a></li>
+          <li><a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram" class="social-icon instagram large"></a></li>
+        </ul>
+      </div>
+      <p>© 2025 MOMA MKT. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="#inicio" class="scroll-top" aria-label="Volver arriba">
+    <img src="images/flecha.gif" alt="Volver arriba">
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
